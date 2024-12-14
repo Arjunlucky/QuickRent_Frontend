@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin: 0 0 15px;
+  }
+  
+  p {
+    margin: 0 0 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #0073e6;
+    color: #fff;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    color: #ffd700;
+  }
+  
+  .navbar .signup {
+    padding: 8px 15px;
+    background-color: #ffd700;
+    border-radius: 5px;
+    color: #000;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 20px;
+    text-align: center;
+    background: url('hero-bg.jpg') no-repeat center/cover;
+    color: #171a06bd;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero .cta-btn {
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .features {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f1f8e9;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .feature-item img {
+    max-width: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .gadgets {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .gadget-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .gadget-item {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .contact {
+    padding: 40px 20px;
+    background: #fff3e0;
+  }
+  
+  form input, form textarea {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    padding: 15px 0;
+    text-align: center;
+    background-color: #0073e6;
+    color: #fff;
+  }
